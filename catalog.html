@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Дизайн-студия «NЁRDS» - Магазин готовых макетов</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <script src="https://api-maps.yandex.ru/2.1/?load=package.full&lang=ru-RU" type="text/javascript">
+    </script>
+  </head>
+  <body>
+    <header class="catalog-header">
+      <div class="container clearfix">
+        <div class="logo">
+          <img src="img/logo.png" width="139" height="55" alt="Дизайн-студия «NЁRDS»">
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="index.html">Студия</a>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li class="active">
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="basket">
+          <i class="icon-basket"></i>
+          Корзина
+        </div>
+      </div>
+      <div class="container clearfix">
+        <h1 class="shop-header">
+          Добро пожаловать в магазин<br>готовых макетов
+        </h1>
+
+      </div>
+    </header>
+    <div class="container clearfix">
+      <form class="filter" action="/echo" method="post">
+        <h2>Стоимость:</h2>
+        <div class="range-filter">
+          <div class="range-controls">
+           <div class="scale">
+            <div class="bar">
+            </div>
+           </div>
+           <div class="toggle min-toggle">
+           </div>
+           <div class="toggle max-toggle">
+           </div>
+          </div>
+          <div class="price-controls">
+            от <input class="min-price" type="number" min="0" max="15000" value="0" step="100">
+            до <input class="max-price" type="number" min="0" max="15000" value="15000" step="100">
+          </div>
+        </div>
+        <h2>Сетка:</h2>
+        <label>
+          <input class="radio" type="radio" name="grid" value="a" checked>
+          <span class="radio-custom"></span>
+          <span class="label">Адаптивная</span>
+        </label>
+        <br>
+        <label>
+          <input class="radio" type="radio" name="grid" value="f">
+          <span class="radio-custom"></span>
+          <span class="label">Фиксированная</span>
+        </label>
+        <br>
+        <label>
+          <input class="radio" type="radio" name="grid" value="r">
+          <span class="radio-custom"></span>
+          <span class="label">Резиновая</span>
+        </label>
+        <h2 class="filter-header2">Особенности:</h2>
+        <label>
+          <input class="checkbox" type="checkbox" name="slider" value="" checked>
+          <span class="checkbox-custom"></span>
+          <span class="label">Слайдер</span>
+        </label>
+        <br>
+        <label>
+          <input class="checkbox" type="checkbox" name="advantage-block" value="">
+          <span class="checkbox-custom"></span>
+          <span class="label">Блок преимуществ</span>
+        </label>
+        <br>
+        <label>
+          <input class="checkbox" type="checkbox" name="news" value="" checked>
+          <span class="checkbox-custom"></span>
+          <span class="label">Новости</span>
+        </label>
+        <br>
+        <label>
+          <input class="checkbox" type="checkbox" name="gallery" value="">
+          <span class="checkbox-custom"></span>
+          <span class="label">Галерея</span>
+        </label>
+        <br>
+        <label>
+          <input class="checkbox" type="checkbox" name="trach" value="">
+          <span class="checkbox-custom"></span>
+          <span class="label">Корзина</span>
+        </label>
+      </form>
+      <div class="slider-filter">
+        <ul>
+          <li>Сотртировать:</li>
+          <li>
+            <a href="#" class="slider__price slider-filter-a">по цене</a>
+          </li>
+          <li>
+            <a href="#" class="slider__type slider-filter-a">по типу</a>
+          </li>
+          <li>
+            <a href="#" class="slider__options slider-filter-a">по функционалу</a>
+          </li>
+        </ul>
+        <a href="#" class="arrow-down">Вниз</a>
+        <a href="#" class="arrow-up">Вверх</a>
+      </div>
+      <div class="models">
+        <ul>
+          <li>
+            <div class="card model1">
+              Макет 1
+              <div class="pop-up">
+                <h2>Sunset</h2>
+                <p>Интернет-магазин<br>с личным кабинетом</p>
+                <a href="#">10 000 р.</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card model2">
+              Макет 2
+              <div class="pop-up">
+                <h2>Sunset</h2>
+                <p>абырвалг</p>
+                <a href="#">10 000 р.</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card model3">
+              Макет 3
+              <div class="pop-up">
+                <h2>Sunset</h2>
+                <p>абырвалг<br>фбырвал</p>
+                <a href="#">10 000 р.</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card model4">
+              Макет 4
+              <div class="pop-up">
+                <h2>Sunset</h2>
+                <p>Интернет-магазин<br>с личным кабинетом</p>
+                <a href="#">10 000 р.</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card model5">
+              Макет 5
+              <div class="pop-up">
+                <h2>Sunset</h2>
+                <p>Интернет-магазин<br>с личным кабинетом</p>
+                <a href="#">10 000 р.</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card model6">
+              Макет 6
+              <div class="pop-up">
+                <h2>Sunset</h2>
+                <p>Интернет-магазин<br>с личным кабинетом</p>
+                <a href="#">10 000 р.</a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+      <div class="pages-number clearfix">
+        <ul>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">Следующая</a></li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="map clearfix">
+      <div style="width: 100%; height: 415px;" id="map"></div>
+      <!--Карта-->
+      <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.0852696106094!2d38.94220471554332!3d45.04349147909813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f04f1371a61747%3A0xb65bcfa78a9cfddd!2z0YPQuy4g0JLQvtC70L7QtNC4INCT0L7Qu9C-0LLQsNGC0L7Qs9C-LCAxMDAsINCa0YDQsNGB0L3QvtC00LDRgCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksINCg0L7RgdGB0LjRjywgMzUwMDA0!5e0!3m2!1sru!2sro!4v1548843691111" width="100%" height="415" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+      <!-- <iframe class="map-iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A97849963069cea0a079249ed56723478c69e0e89f937dd9a15a7645b84baf4cd&amp;source=constructor" width="100%" height="415" frameborder="0"></iframe> -->
+      <div class="nerds-addres">
+        <h2> <span>NЁRDS</span> DESIGN STUDIO</h2>
+        <p>350000, Краснодар,<br>ул. Головатого, 100</p><p>тел. +7 (861) 275-75-75</p>
+        <a href="write.html" class="write">Напишите нам</a>
+      </div>
+    </div>
+    <footer class="main-footer">
+      <div class="container clearfix">
+        <section class="footer-social">
+        <!--
+         <p>Давайте дружить</p>
+       -->
+        <a href="#" class="social-btn social-btn-vk"><i class="icon-vk"></i>Вконтакте</a>
+        <a href="#" class="social-btn social-btn-fb"><i class="icon-facebook"></i>Фейсбук</a>
+        <a href="#" class="social-btn social-btn-inst"><i class="icon-instagramm"></i>Интстаграмм</a>
+      </section>
+      <section class="footer-column-right">
+        <h1 class="footer-header">Давайте дружить, это выгодно!</h1>
+        <span class="footer-text">Скидка 10% для друзей из социальных сетей.</span>
+      </section>
+      </div>
+    </footer>
+    <div class="modal-content">
+      <form class="" action="/echo" method="post">
+        <label>Ваше имя:<br><input type="text" name="name" placeholder="Представьтесь, пожалуйста" value=""></label>
+        <label>Ваш e-mail:<br><input type="text" name="email" placeholder="Для отправки ответа" value=""></label>
+        <label> Текст письма:<br><textarea name="text" placeholder="В свободной форме"></textarea></label>
+        <button type="submit" class="submit-btn" name="submit">Отправить</button>
+        <button type="button" class="modal-content-close" name="exit">Отмена</button>
+
+      </form>
+    </div>
+    <template class="card__template">
+      <li>
+        <div class="card model1">
+          Макет 1
+          <div class="pop-up">
+            <h2>Sunset</h2>
+            <p>Интернет-магазин<br>с личным кабинетом</p>
+            <a href="#">10 000 р.</a>
+          </div>
+        </div>
+      </li>
+    </template>
+    <script>
+      var write = document.querySelector(".write");
+      var popup = document.querySelector(".modal-content");
+      var close = document.querySelector(".modal-content-close");
+
+      write.addEventListener("click", function(event) {
+        event.preventDefault();
+        //console.log(1);
+        popup.classList.add("modal-content-show");
+      });
+      close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("modal-content-show");
+      });
+
+      var popupBtn = popup.querySelector(".submit-btn");
+
+      popupBtn.addEventListener("click", function(event) {
+        event.preventDefault();
+      })
+
+    </script>
+    <script src="js/rangefilter.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/sort.js"></script>
+    <script src="js/card.js"></script>    
+  </body>
+</html>
